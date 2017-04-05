@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      enabled: true
+      config:
+        enabled: true
+        prefix: '/'
+        defaultContext: '/'
+        format: KEY_VALUE
+  application:
+    name: GestionLan
